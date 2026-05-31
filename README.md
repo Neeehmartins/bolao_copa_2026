@@ -40,3 +40,10 @@ Acesse **http://localhost:5173** no navegador.
 - LocalStorage para persistência
 
 ## 📁 Estrutura
+src/
+└── App.jsx   # Aplicação completa
+
+## 📌 Observações
+
+- Os palpites são salvos no navegador — cada dispositivo tem seu próprio armazenamento
+- Para um ambiente multiusuário real, seria necessário um backend com banco de dados

@@ -1,16 +1,42 @@
-# React + Vite
+# 🏆 Bolão da Copa 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site de bolão para a Copa do Mundo 2026, desenvolvido em React + Vite.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Login e cadastro de participantes
+- Palpites de placar por jogo
+- Bloqueio do palpite após salvar (não pode ser alterado)
+- Placar geral com ranking dos participantes
+- Visualização de todos os palpites por jogo
+- Persistência dos dados no navegador (localStorage)
 
-## React Compiler
+## 🚀 Como rodar localmente
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Pré-requisitos:** Node.js instalado
 
-## Expanding the ESLint configuration
+```bash
+# Instalar dependências
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Rodar em desenvolvimento
+npm run dev
+```
+
+Acesse **http://localhost:5173** no navegador.
+
+## 🧪 Usuários de teste
+
+| Usuário | Senha     |
+|---------|-----------|
+| joao    | joao123   |
+| maria   | maria123  |
+| admin   | admin123  |
+
+## 🛠️ Tecnologias
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- LocalStorage para persistência
+
+## 📁 Estrutura
